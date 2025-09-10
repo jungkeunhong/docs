@@ -1,12 +1,12 @@
 ---
-title: "Plato Changelog"
+title: "Latest Updates"
 description: "Track all updates, features, and improvements to Plato - your AI teammate that rescues stalled sales deals"
 ---
 
 <style>
-{`
+  {`
   @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;200;300;400;500;600;700;800;900&display=swap');
-  
+
   .changelog-container {
     font-family: 'Roboto Flex', -apple-system, BlinkMacSystemFont, sans-serif;
     max-width: 800px;
@@ -15,26 +15,26 @@ description: "Track all updates, features, and improvements to Plato - your AI t
     color: #000000;
     line-height: 1.6;
   }
-  
+
   .changelog-header {
     text-align: center;
     margin-bottom: 3rem;
     padding: 2rem 0;
   }
-  
+
   .changelog-title {
     font-size: 2.5rem;
     font-weight: 600;
     color: #A0472B;
     margin-bottom: 1rem;
   }
-  
+
   .changelog-subtitle {
     font-size: 1.2rem;
     color: #1e3a5f;
     font-weight: 400;
   }
-  
+
   .changelog-entry {
     margin-bottom: 4rem;
     background: white;
@@ -42,7 +42,7 @@ description: "Track all updates, features, and improvements to Plato - your AI t
     padding: 2rem;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   }
-  
+
   .entry-date {
     font-size: 0.9rem;
     color: #666;
@@ -51,18 +51,18 @@ description: "Track all updates, features, and improvements to Plato - your AI t
     letter-spacing: 0.5px;
     margin-bottom: 0.5rem;
   }
-  
+
   .entry-title {
     font-size: 1.8rem;
     font-weight: 600;
     color: #000;
     margin-bottom: 1.5rem;
   }
-  
+
   .entry-section {
     margin-bottom: 2rem;
   }
-  
+
   .section-title {
     font-size: 1.1rem;
     font-weight: 600;
@@ -72,16 +72,16 @@ description: "Track all updates, features, and improvements to Plato - your AI t
     align-items: center;
     gap: 0.5rem;
   }
-  
+
   .section-items {
     margin-left: 1.5rem;
   }
-  
+
   .section-items li {
     margin-bottom: 0.75rem;
     color: #333;
   }
-  
+
   .feature-badge {
     background: #A0472B;
     color: white;
@@ -90,7 +90,7 @@ description: "Track all updates, features, and improvements to Plato - your AI t
     font-size: 0.8rem;
     font-weight: 500;
   }
-  
+
   .improvement-badge {
     background: #f4975a;
     color: white;
@@ -99,7 +99,7 @@ description: "Track all updates, features, and improvements to Plato - your AI t
     font-size: 0.8rem;
     font-weight: 500;
   }
-  
+
   .fix-badge {
     background: #1e3a5f;
     color: white;
@@ -108,102 +108,304 @@ description: "Track all updates, features, and improvements to Plato - your AI t
     font-size: 0.8rem;
     font-weight: 500;
   }
-`}
+
+  .major-feature-badge {
+    background: #A0472B;
+    color: white;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  /* Small date headings for sidebar navigation */
+  h2 {
+    font-size: 0.9rem !important;
+    color: #666 !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: 3rem !important;
+  }
+
+  /* Feature title headings */
+  h3 {
+    font-size: 1.8rem !important;
+    font-weight: 600 !important;
+    color: #000 !important;
+    margin-bottom: 1rem !important;
+    margin-top: 0 !important;
+  }
+
+  /* Version text styling */
+  .version-text {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Category badge */
+  .category-text {
+    font-size: 0.9rem;
+    color: #A0472B;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+
+  /* Content styling */
+  .changelog-content {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+
+  .changelog-content p {
+    margin-bottom: 1rem;
+  }
+
+  .whats-new {
+    margin-top: 1.5rem;
+  }
+
+  .whats-new h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #A0472B;
+    margin-bottom: 0.5rem;
+  }
+
+  .whats-new ul {
+    margin-left: 1rem;
+  }
+
+  .whats-new li {
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  `}
 </style>
 
-<div className="changelog-container">
-  <div className="changelog-header">
-    <h1 className="changelog-title">Plato Changelog</h1>
-    <p className="changelog-subtitle">
-      Stay updated with the latest features, improvements, and fixes to your AI sales teammate
-    </p>
-  </div>
+## September 8, 2025
 
-  <div className="changelog-entry">
-    <div className="entry-date">September 9, 2024</div>
-    <h2 className="entry-title">Enhanced Deal Intelligence & Automated Follow-ups</h2>
-    
-    <div className="entry-section">
-      <h3 className="section-title">
-        <span className="feature-badge">Features</span>
-        New Capabilities
-      </h3>
-      <ul className="section-items">
-        <li><strong>Smart Deal Scoring:</strong> AI now automatically analyzes deal health and provides risk assessments for stalled opportunities</li>
-        <li><strong>Automated Follow-up Sequences:</strong> Plato can now schedule and send personalized follow-up emails based on prospect behavior</li>
-        <li><strong>Integration with CRM Systems:</strong> Seamlessly sync deal data with Salesforce, HubSpot, and Pipedrive</li>
-      </ul>
-    </div>
+### Enhanced Email Follow-up Configuration
 
-    <div className="entry-section">
-      <h3 className="section-title">
-        <span className="improvement-badge">Improvements</span>
-        Enhanced Performance
-      </h3>
-      <ul className="section-items">
-        <li>Improved response accuracy by 25% through enhanced training data</li>
-        <li>Faster deal analysis with 40% reduction in processing time</li>
-        <li>Better context understanding for complex B2B sales scenarios</li>
-      </ul>
-    </div>
+<div className="version-text">
+v0.4.2
+</div>
 
-    <div className="entry-section">
-      <h3 className="section-title">
-        <span className="fix-badge">Bug Fixes</span>
-        Resolved Issues
-      </h3>
-      <ul className="section-items">
-        <li>Fixed issue where deal probability calculations were inconsistent</li>
-        <li>Resolved email template formatting problems in Outlook integration</li>
-        <li>Corrected timezone handling for scheduled follow-ups</li>
-      </ul>
-    </div>
-  </div>
+<div className="category-text">
+🎨 Improvement
+</div>
 
-  <div className="changelog-entry">
-    <div className="entry-date">August 15, 2024</div>
-    <h2 className="entry-title">Advanced Analytics Dashboard & Team Collaboration</h2>
-    
-    <div className="entry-section">
-      <h3 className="section-title">
-        <span className="feature-badge">Features</span>
-        New Capabilities
-      </h3>
-      <ul className="section-items">
-        <li><strong>Analytics Dashboard:</strong> Comprehensive view of deal rescue success rates, AI recommendations, and team performance</li>
-        <li><strong>Team Collaboration Tools:</strong> Share AI insights and coordinate rescue efforts across sales teams</li>
-        <li><strong>Custom Playbooks:</strong> Create industry-specific deal rescue strategies</li>
-      </ul>
-    </div>
+<div className="changelog-content">
+<p>
+Added comprehensive custom follow-up configuration for AI-generated emails. Users can now specify email length, tone, type, and maintain an avoid-words list for personalized email generation.
+</p>
 
-    <div className="entry-section">
-      <h3 className="section-title">
-        <span className="improvement-badge">Improvements</span>
-        Enhanced Performance
-      </h3>
-      <ul className="section-items">
-        <li>Enhanced natural language processing for better conversation analysis</li>
-        <li>Improved deal stage recognition accuracy</li>
-        <li>More precise objection handling recommendations</li>
-      </ul>
-    </div>
-  </div>
+<div className="whats-new">
+<h4>
+What's New:
+</h4>
 
-  <div className="changelog-entry">
-    <div className="entry-date">July 22, 2024</div>
-    <h2 className="entry-title">Initial Product Launch</h2>
-    
-    <div className="entry-section">
-      <h3 className="section-title">
-        <span className="feature-badge">Features</span>
-        Core Platform
-      </h3>
-      <ul className="section-items">
-        <li><strong>AI-Powered Deal Analysis:</strong> Automatically identify why deals are stalling and get actionable rescue recommendations</li>
-        <li><strong>Conversation Intelligence:</strong> Analyze sales calls and emails to understand prospect concerns</li>
-        <li><strong>Personalized Outreach:</strong> Generate tailored messages to re-engage stalled prospects</li>
-        <li><strong>Deal Health Monitoring:</strong> Real-time alerts when deals show signs of stalling</li>
-      </ul>
-    </div>
-  </div>
+<ul>
+<li>
+5 email length options (one-liner to long)
+</li>
+
+<li>
+6 tone variations (professional, analytical, conversational, etc.)
+</li>
+
+<li>
+6 email types (follow-up, value-add, reminder, revival, negotiation, proposal)
+</li>
+
+<li>
+Custom avoid-words list with badge-based UI
+</li>
+</ul>
+
+</div>
+</div>
+
+---
+
+## September 5, 2025
+
+### Meeting Bot Auto-Join Functionality
+
+<div className="version-text">
+v0.4.1
+</div>
+
+<div className="category-text">
+🤖 Feature
+</div>
+
+<div className="changelog-content">
+<p>
+Launched automated meeting bot that joins Google Calendar meetings to capture transcripts with real-time status updates and seamless calendar integration.
+</p>
+
+<div className="whats-new">
+<h4>
+What's New:
+</h4>
+
+<ul>
+<li>
+Automated meeting participation via Google Calendar OAuth
+</li>
+
+<li>
+Integration with Recall.ai for transcription services
+</li>
+
+<li>
+Real-time toggle with calendar connection validation
+</li>
+
+<li>
+New meeting bot API endpoints and webhook support
+</li>
+</ul>
+
+</div>
+</div>
+
+---
+
+## August 28, 2025
+
+### AI Teammate Inbox Interface
+
+<div className="version-text">
+v0.4.0
+</div>
+
+<div className="category-text">
+📥 Major Feature
+</div>
+
+<div className="changelog-content">
+<p>
+Released the central AI teammate inbox with Outlook-style layout, featuring resizable panels, progressive loading states, and real-time agent execution tracking.
+</p>
+
+<div className="whats-new">
+<h4>
+What's New:
+</h4>
+
+<ul>
+<li>
+Outlook-style resizable panel layout
+</li>
+
+<li>
+Real-time Supabase subscriptions for live updates
+</li>
+
+<li>
+Progressive UI with animations and multi-step workflows
+</li>
+
+<li>
+Structured database storage for all AI task results
+</li>
+</ul>
+
+</div>
+</div>
+
+---
+
+## August 20, 2025
+
+### Mastra AI Framework Integration
+
+<div className="version-text">
+v0.3.5
+</div>
+
+<div className="category-text">
+⚡ Improvement
+</div>
+
+<div className="changelog-content">
+<p>
+Updated to Mastra AI framework v0.13.2 with enhanced agent capabilities, tool broadcasting, and improved Deal Reviver agent for meeting analysis.
+</p>
+
+<div className="whats-new">
+<h4>
+What's New:
+</h4>
+
+<ul>
+<li>
+Enhanced Composio integration for dynamic tool calling
+</li>
+
+<li>
+Improved agent execution with streaming responses
+</li>
+
+<li>
+Better error handling and status tracking
+</li>
+
+<li>
+Real-time tool broadcasting during agent execution
+</li>
+</ul>
+
+</div>
+</div>
+
+---
+
+## August 15, 2025
+
+### Authentication and Layout Improvements
+
+<div className="version-text">
+v0.3.2
+</div>
+
+<div className="category-text">
+🔧 Bug Fix
+</div>
+
+<div className="changelog-content">
+<p>
+Fixed authentication flow issues and modernized application layout with new sidebar architecture and improved protected route handling.
+</p>
+
+<div className="whats-new">
+<h4>
+What's New:
+</h4>
+
+<ul>
+<li>
+Migrated to modern sidebar-2 implementation
+</li>
+
+<li>
+Enhanced authentication with better session management
+</li>
+
+<li>
+Improved Supabase integration and waitlist validation
+</li>
+
+<li>
+Better error handling for authentication edge cases
+</li>
+</ul>
+
+</div>
 </div>
