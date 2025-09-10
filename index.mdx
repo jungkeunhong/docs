@@ -1,97 +1,209 @@
 ---
-title: "Introduction"
-description: "Welcome to the new home for your documentation"
+title: "Plato Changelog"
+description: "Track all updates, features, and improvements to Plato - your AI teammate that rescues stalled sales deals"
 ---
 
-## Setting up
+<style>
+{`
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  
+  .changelog-container {
+    font-family: 'Roboto Flex', -apple-system, BlinkMacSystemFont, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    color: #000000;
+    line-height: 1.6;
+  }
+  
+  .changelog-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+  }
+  
+  .changelog-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #A0472B;
+    margin-bottom: 1rem;
+  }
+  
+  .changelog-subtitle {
+    font-size: 1.2rem;
+    color: #1e3a5f;
+    font-weight: 400;
+  }
+  
+  .changelog-entry {
+    margin-bottom: 4rem;
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .entry-date {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .entry-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 1.5rem;
+  }
+  
+  .entry-section {
+    margin-bottom: 2rem;
+  }
+  
+  .section-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #A0472B;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .section-items {
+    margin-left: 1.5rem;
+  }
+  
+  .section-items li {
+    margin-bottom: 0.75rem;
+    color: #333;
+  }
+  
+  .feature-badge {
+    background: #A0472B;
+    color: white;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  
+  .improvement-badge {
+    background: #f4975a;
+    color: white;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  
+  .fix-badge {
+    background: #1e3a5f;
+    color: white;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+`}
+</style>
 
-Get your documentation site up and running in minutes.
+<div className="changelog-container">
+  <div className="changelog-header">
+    <h1 className="changelog-title">Plato Changelog</h1>
+    <p className="changelog-subtitle">
+      Stay updated with the latest features, improvements, and fixes to your AI sales teammate
+    </p>
+  </div>
 
-<Card
-  title="Start here"
-  icon="rocket"
-  href="/quickstart"
-  horizontal
->
-  Follow our three step quickstart guide.
-</Card>
+  <div className="changelog-entry">
+    <div className="entry-date">September 9, 2024</div>
+    <h2 className="entry-title">Enhanced Deal Intelligence & Automated Follow-ups</h2>
+    
+    <div className="entry-section">
+      <h3 className="section-title">
+        <span className="feature-badge">Features</span>
+        New Capabilities
+      </h3>
+      <ul className="section-items">
+        <li><strong>Smart Deal Scoring:</strong> AI now automatically analyzes deal health and provides risk assessments for stalled opportunities</li>
+        <li><strong>Automated Follow-up Sequences:</strong> Plato can now schedule and send personalized follow-up emails based on prospect behavior</li>
+        <li><strong>Integration with CRM Systems:</strong> Seamlessly sync deal data with Salesforce, HubSpot, and Pipedrive</li>
+      </ul>
+    </div>
 
-## Make it yours
+    <div className="entry-section">
+      <h3 className="section-title">
+        <span className="improvement-badge">Improvements</span>
+        Enhanced Performance
+      </h3>
+      <ul className="section-items">
+        <li>Improved response accuracy by 25% through enhanced training data</li>
+        <li>Faster deal analysis with 40% reduction in processing time</li>
+        <li>Better context understanding for complex B2B sales scenarios</li>
+      </ul>
+    </div>
 
-Design a docs site that looks great and empowers your users.
+    <div className="entry-section">
+      <h3 className="section-title">
+        <span className="fix-badge">Bug Fixes</span>
+        Resolved Issues
+      </h3>
+      <ul className="section-items">
+        <li>Fixed issue where deal probability calculations were inconsistent</li>
+        <li>Resolved email template formatting problems in Outlook integration</li>
+        <li>Corrected timezone handling for scheduled follow-ups</li>
+      </ul>
+    </div>
+  </div>
 
-<Columns cols={2}>
-  <Card
-    title="Edit locally"
-    icon="pen-to-square"
-    href="/development"
-  >
-    Edit your docs locally and preview them in real time.
-  </Card>
-  <Card
-    title="Customize your site"
-    icon="palette"
-    href="/essentials/settings"
-  >
-    Customize the design and colors of your site to match your brand.
-  </Card>
-    <Card
-    title="Set up navigation"
-    icon="map"
-    href="/essentials/navigation"
-  >
-    Organize your docs to help users find what they need and succeed with your product.
-  </Card>
-  <Card
-    title="API documentation"
-    icon="terminal"
-    href="/api-reference/introduction"
-  >
-    Auto-generate API documentation from OpenAPI specifications.
-  </Card>
-</Columns>
+  <div className="changelog-entry">
+    <div className="entry-date">August 15, 2024</div>
+    <h2 className="entry-title">Advanced Analytics Dashboard & Team Collaboration</h2>
+    
+    <div className="entry-section">
+      <h3 className="section-title">
+        <span className="feature-badge">Features</span>
+        New Capabilities
+      </h3>
+      <ul className="section-items">
+        <li><strong>Analytics Dashboard:</strong> Comprehensive view of deal rescue success rates, AI recommendations, and team performance</li>
+        <li><strong>Team Collaboration Tools:</strong> Share AI insights and coordinate rescue efforts across sales teams</li>
+        <li><strong>Custom Playbooks:</strong> Create industry-specific deal rescue strategies</li>
+      </ul>
+    </div>
 
-## Create beautiful pages
+    <div className="entry-section">
+      <h3 className="section-title">
+        <span className="improvement-badge">Improvements</span>
+        Enhanced Performance
+      </h3>
+      <ul className="section-items">
+        <li>Enhanced natural language processing for better conversation analysis</li>
+        <li>Improved deal stage recognition accuracy</li>
+        <li>More precise objection handling recommendations</li>
+      </ul>
+    </div>
+  </div>
 
-Everything you need to create world-class documentation.
-
-<Columns cols={2}>
-  <Card
-    title="Write with MDX"
-    icon="pen-fancy"
-    href="/essentials/markdown"
-  >
-    Use MDX to style your docs pages.
-  </Card>
-  <Card
-    title="Code samples"
-    icon="code"
-    href="/essentials/code"
-  >
-    Add sample code to demonstrate how to use your product.
-  </Card>
-  <Card
-    title="Images"
-    icon="image"
-    href="/essentials/images"
-  >
-    Display images and other media.
-  </Card>
-  <Card
-    title="Reusable snippets"
-    icon="recycle"
-    href="/essentials/reusable-snippets"
-  >
-    Write once and reuse across your docs.
-  </Card>
-</Columns>
-
-## Need inspiration?
-
-<Card
-  title="See complete examples"
-  icon="stars"
-  href="https://mintlify.com/customers"
->
-  Browse our showcase of exceptional documentation sites.
-</Card>
+  <div className="changelog-entry">
+    <div className="entry-date">July 22, 2024</div>
+    <h2 className="entry-title">Initial Product Launch</h2>
+    
+    <div className="entry-section">
+      <h3 className="section-title">
+        <span className="feature-badge">Features</span>
+        Core Platform
+      </h3>
+      <ul className="section-items">
+        <li><strong>AI-Powered Deal Analysis:</strong> Automatically identify why deals are stalling and get actionable rescue recommendations</li>
+        <li><strong>Conversation Intelligence:</strong> Analyze sales calls and emails to understand prospect concerns</li>
+        <li><strong>Personalized Outreach:</strong> Generate tailored messages to re-engage stalled prospects</li>
+        <li><strong>Deal Health Monitoring:</strong> Real-time alerts when deals show signs of stalling</li>
+      </ul>
+    </div>
+  </div>
+</div>
